@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jung.tpapplimob1.interface3_MainMenu"><![CDATA[
+
+
+        android:layout_width="385dp"
+        android:layout_height="168dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        ]]>
+
+    <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/civTextView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/civTextView"
+            android:layout_toRightOf="@+id/civTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/birthDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/civTextView"
+            android:layout_alignStart="@+id/civTextView"
+            android:layout_below="@+id/civTextView"
+            android:layout_marginTop="14dp"
+            android:text="TextView" />
+
+    <TextView
+        android:id="@+id/eMailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/birthDateTextView"
+        android:layout_alignStart="@+id/birthDateTextView"
+        android:layout_below="@+id/birthDateTextView"
+        android:layout_marginTop="32dp"
+        android:text="TextView" />
+
+        <TextView
+            android:id="@+id/firstNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nameTextView"
+            android:layout_alignBottom="@+id/nameTextView"
+            android:layout_centerHorizontal="true"
+            android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mailAdressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eMailTextView"
+        android:layout_alignBottom="@+id/eMailTextView"
+        android:layout_toLeftOf="@+id/firstNameTextView"
+        android:layout_toStartOf="@+id/firstNameTextView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/commentsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstNameTextView"
+        android:layout_alignStart="@+id/firstNameTextView"
+        android:layout_below="@+id/birthDateTextView"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/ValidateButton"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="goLayout4"
+        android:text="@string/sportButton"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/AccueilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ValidateButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="accueil"
+        android:text="@string/Accueilbutton" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TPapplimob1</string>
+    <string name="Startbutton">Démarrer</string>
+    <string name="validateButton">Validate</string>
+    <string name="e_mail">E-mail</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="_01_01_1999">01/01/1999</string>
+    <string name="adress">Adress</string>
+    <string name="comments">comments</string>
+    <string name="checkboxMan">Man</string>
+    <string name="checkboxWoman">Woman</string>
+    <string name="sportButton">Sports</string>
+    <string name="Accueilbutton">Accueil</string>
+    <string name="Sports_Title">Sports</string>
+    <string name="sport1">Football</string>
+    <string name="sport2">Baseball</string>
+    <string name="sport3">Tennis</string>
+</resources>
